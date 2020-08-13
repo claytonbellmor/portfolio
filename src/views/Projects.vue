@@ -73,7 +73,7 @@
 
     <GitHubCard
       title="🏁 Vuetify Car App"
-      link="https://claytonbellmor.github.io/mycarapp"
+      link="http://claytonbellmor.com/project_three/#/mycar"
       :info="carappInfo"
       :loading="loading"
     >
@@ -86,14 +86,14 @@
         wanted to build an app based on the Material Design standard.
       </p>
       <p>
-        The app is hosted on Github pages. The data is synced in real-time with Google's Firebase. I really like Vue.
+        This app is hosted privately.
       </p>
       <div class="preview-container">
         <img src="./../assets/previews/project-three-preview__garage.png" alt="Egypt Preview" />
         <img src="./../assets/previews/project-three-preview__car.jpg" alt="Egypt Preview" />
       </div>
       <p>
-        <a href="https://claytonbellmor.github.io/mycarapp/" target="_blank"
+        <a href="http://claytonbellmor.com/project_three/#/mycar" target="_blank"
           ><span class="title-font">🌎</span> Live Site Preview</a
         >.
       </p>
