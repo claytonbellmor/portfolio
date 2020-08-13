@@ -1,59 +1,53 @@
 <template>
   <div class="container">
     <div id="name-container">
-      <img id="avatar" src="./../assets/images/av.png" alt="avatar" />
-      <h1>Spencer Woo</h1>
+      <img id="avatar" src="./../assets/images/profile.jpg" alt="avatar" />
+      <h1>Clayton Bellmor</h1>
     </div>
     <div class="title-desc-container">
-      <a id="github" href="https://github.com/spencerwooo"
-        ><img class="title-font" src="./../assets/images/github.svg" />Developer</a
-      >
-      <span>/</span>
-      <a id="sspai" href="https://sspai.com/u/spencerwoo/posts"
-        ><img class="title-font" src="./../assets/images/sspai.svg" />Writer</a
-      >
-      <span>/</span>
-      <a id="blog" href="https://blog.spencerwoo.com"
-        ><img class="title-font" src="./../assets/images/zeit.svg" />Blogger</a
+      <a id="github" href="https://github.com/claytonbellmor">
+        <img class="title-font" src="./../assets/images/github.svg" alt="Github" />
+        <img class="title-font" src="./../assets/logos/css.svg" alt="HTML/CSS" />
+        <img class="title-font" src="./../assets/logos/vue.svg" alt="Vue" />
+        <!-- <img class="title-font" src="./../assets/logos/ubuntu.svg" alt="Ubuntu" /> -->
+        Front End Developer</a
       >
     </div>
     <div class="article">
-      <h2>Name</h2>
+      <h2>About</h2>
       <p>
-        I go by the name of <i>Spencer Woo</i>. Various other IDs across the net:
-        <a href="https://twitter.com/realSpencerWoo">@realSpencerWoo</a> /
-        <a href="https://weibo.com/spencerwoo">@SpencerWoo</a> /
-        <a href="https://github.com/spencerwooo">@spencerwooo</a>.
+        <i>Self-taught front end developer.</i> Journey to full-stack has included, HTML5/CSS3, Bootstrap, Less, SaSS,
+        Photoshop/Photopea, Figma, Sketch, Node, Express, CRUD, APIs, Internet protocols, Vue and React, DevOps,
+        testing, and VSCode and Unix terminals. I 💚 Github and NPM.<br />
+        Twitter: <a href="https://twitter.com/claytonbellmor">@claytonbellmor</a> <br />
+        Github: <a href="https://github.com/claytonbellmor">@claytonbellmor</a>
       </p>
 
-      <h2>Academics</h2>
+      <h2>Skills</h2>
       <ul>
+        <li>🔭 <b> Interests:</b> Full stack web development / Automation</li>
+        <li>🗺️ Always trying new cuisines 🍲</li>
         <li>
-          🍭 Fresh graduate at 🇨🇳 <a href="http://www.bit.edu.cn/">Beijing Institute of Technology</a>,
-          <i>BSc in Computer Science</i>. Currently a research assistant at Data & AI security Lab, BIT.
+          🚗 Passion for fixing things and adding to my tool collection.
         </li>
-        <li>
-          🙇 Prospective student at 🇬🇧 <a href="https://www.gla.ac.uk/">the University of Glasgow</a>, 1/2021
-          entry, <i><a href="https://www.gla.ac.uk/postgraduate/taught/computingsciencemsc/">MSc in Computing Science</a></i>.
-        </li>
-        <li>🔭 <b>Fields of interest:</b> Adversarial attacks / Image classification / AI security.</li>
+        <li>🛠️ Hardware and software debugging.</li>
       </ul>
 
       <h2>Devices</h2>
       <ul>
-        <li>Intel® NUC Kit NUC8I5BEK</li>
-        <li>ThinkPad X1 Carbon 7th Gen</li>
-        <li>Sony 1000XM3</li>
-        <li>iPhone XR / iPad Air 3 / AirPods Pro</li>
+        <li>MacBook Pro</li>
+        <li>MacBook Air with Ubuntu 20</li>
+        <li>iPhone SE, iPhone 7, Moto G6</li>
+        <li>Dell Optiplex Hackintosh</li>
       </ul>
 
       <h2>Contacts</h2>
       <ul>
         <li>
           <b>Email：</b>
-          <a href="mailto:spencer.woo@outlook.com">spencer.woo#outlook.com</a><i> (Preferred)</i>
+          <a href="mailto:claytonbellmor@gmail.com">claytonbellmor#gmail.com</a><i> (Preferred)</i>
         </li>
-        <li><b>Catch me: </b>Beijing Institute of Technology, Beijing, China</li>
+        <li><b>Catch me: </b>Nitch Space in Athens.</li>
       </ul>
     </div>
   </div>
@@ -61,16 +55,16 @@
 
 <style lang="css" scoped>
 #name-container {
-	display: flex;
-	flex-direction: row;
-	justify-content: flex-start;
-	align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 #avatar {
-  width: 42px;
-  height: 42px;
-  border-radius: 50%;
+  width: auto;
+  height: 130px;
+  border-radius: 10px;
   margin-right: 12px;
 }
 

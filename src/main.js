@@ -6,7 +6,6 @@ import axios from 'axios'
 
 import Home from './views/Home.vue'
 import Projects from './views/Projects.vue'
-import Social from './views/Social.vue'
 import NotFound from './views/NotFound.vue'
 
 Vue.config.productionTip = false
@@ -24,11 +23,10 @@ const router = new VueRouter({
   routes: [
     { path: '/', component: Home },
     { path: '/projects', component: Projects },
-    { path: '/social', component: Social },
 
     // Not found
-    { path: '/*', component: NotFound }
-  ]
+    { path: '/*', component: NotFound },
+  ],
 })
 
 router.beforeEach((to, from, next) => {
@@ -46,5 +44,5 @@ Vue.prototype.axios = axios
 
 new Vue({
   router,
-  render: h => h(App)
+  render: h => h(App),
 }).$mount('#app')
