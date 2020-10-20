@@ -16,13 +16,15 @@
         >
         for my first project. This brochure site used inline SVG, font replacements, and Vue.
       </p>
-      <p>It uses multiple breakpoints, image source sets, and vanilla Javascript.</p>
+      <p>Multiple breakpoints, image source sets, and Javascript.</p>
       <p>
         This repository uses Github Actions to automatically upload to a web hosting server each time a commit is
         pushed, which is neat-o.
       </p>
       <div class="preview-container">
-        <img src="./../assets/previews/project-one-preview.jpg" alt="Egypt Preview" />
+        <a href="https://www.claytonbellmor.com/project_one" target="_blank">
+          <img src="./../assets/previews/project-one-preview.jpg" alt="Egypt Preview"
+        /></a>
       </div>
       <p>
         <a href="https://www.claytonbellmor.com/project_one" target="_blank"
@@ -43,16 +45,14 @@
       :loading="loading"
     >
       <p>
-        My second project had a mobile first approach rather than responsive design. It was inspired by a real campaign
-        website, which I copied into Figma.
-      </p>
-      <p>
-        Compared to my first project, this website was much easier to code and I had a lot of fun doing it. Bootstrap
-        and the Less preprocessor were used.
+        Mobile first approach rather than responsive design. Inspired by a real campaign website. Recreated into Figma
+        and built with Less.
       </p>
       <p>Automatic publishing with Github Actions.</p>
       <div class="preview-container">
-        <img src="./../assets/previews/project-two-preview.jpg" alt="Egypt Preview" />
+        <a href="https://www.claytonbellmor.com/project_two" target="_blank">
+          <img src="./../assets/previews/project-two-preview.jpg" alt="Egypt Preview" />
+        </a>
       </div>
       <p>
         <a href="https://www.claytonbellmor.com/project_two" target="_blank"
@@ -78,19 +78,17 @@
       :loading="loading"
     >
       <p>
-        In my journey of learning front end develop, I've been bombarded by React tutorials and lessons. When I
-        discovered Vue, I really preferred it. I wanted my third project to encompass Vue and APIs.
-      </p>
-      <p>
-        I subscribed to Vue Mastery for a month and went through all the lessons. Vuetify seemed like cheating and I
-        wanted to build an app based on the Material Design standard.
+        After spending months with React, Vue was refreshingly fun to use. This third project encompassed Vue, Vuetify
+        and pulls data with JSON.
       </p>
       <p>
         This app is hosted privately.
       </p>
       <div class="preview-container">
-        <img src="./../assets/previews/project-three-preview__garage.png" alt="Egypt Preview" />
-        <img src="./../assets/previews/project-three-preview__car.jpg" alt="Egypt Preview" />
+        <a href="http://claytonbellmor.com/project_three/#/mycar" target="_blank">
+          <img src="./../assets/previews/project-three-preview__garage.png" alt="Egypt Preview"/>
+          <img src="./../assets/previews/project-three-preview__car.jpg" alt="Egypt Preview"
+        /></a>
       </div>
       <p>
         <a href="http://claytonbellmor.com/project_three/#/mycar" target="_blank"
@@ -147,7 +145,7 @@ export default {
           this.carappInfo = resp[2].data
         }),
       )
-      .catch((err) => {
+      .catch(err => {
         this.loading = false
         // eslint-disable-next-line no-console
         console.error(err)

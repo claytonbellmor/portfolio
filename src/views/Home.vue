@@ -7,8 +7,8 @@
     <div class="title-desc-container">
       <a id="github" href="https://github.com/claytonbellmor">
         <img class="title-font" src="./../assets/images/github.svg" alt="Github" />
-        <img class="title-font" src="./../assets/logos/css.svg" alt="HTML/CSS" />
-        <img class="title-font" src="./../assets/logos/vue.svg" alt="Vue" />
+        <!-- <img class="title-font" src="./../assets/logos/css.svg" alt="HTML/CSS" /> -->
+        <!-- <img class="title-font" src="./../assets/logos/vue.svg" alt="Vue" /> -->
         <!-- <img class="title-font" src="./../assets/logos/ubuntu.svg" alt="Ubuntu" /> -->
         Front End Developer</a
       >
@@ -16,20 +16,20 @@
     <div class="article">
       <h2>About</h2>
       <p>
-        <i>Self-taught front end developer.</i> Journey to full-stack has included, HTML5/CSS3, Bootstrap, Less, SaSS,
-        Photoshop/Photopea, Figma, Sketch, Node, Express, CRUD, APIs, Internet protocols, Vue and React, DevOps,
-        testing, and VSCode and Unix terminals. I 💚 Github and NPM.<br />
+        <i>Self-taught front end developer.</i> HTML5/CSS3, Bootstrap, Less, SaSS, Photoshop/Photopea, Figma, Sketch,
+        Node, Express, CRUD, APIs, Internet protocols, Vue and React, DevOps, testing, and VSCode and Unix terminals. I
+        💚 Github and NPM.<br />
         Twitter: <a href="https://twitter.com/claytonbellmor">@claytonbellmor</a> <br />
         Github: <a href="https://github.com/claytonbellmor">@claytonbellmor</a>
       </p>
 
-      <h2>Skills</h2>
+      <h2>Interests</h2>
       <ul>
-        <li>🔭 <b> Interests:</b> Full stack web development / Automation</li>
-        <li>🗺️ Always trying new cuisines 🍲</li>
+        <li>Full stack web development and automation.</li>
         <li>
-          🚗 Passion for fixing things and adding to my tool collection.
+          🚗 Passion for fixing code and cars.
         </li>
+        <li>🍲 Love for cooking new cuisines.</li>
         <li>🛠️ Hardware and software debugging.</li>
       </ul>
 
